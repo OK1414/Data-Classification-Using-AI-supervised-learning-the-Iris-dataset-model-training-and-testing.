@@ -60,7 +60,7 @@ plt.title('Confusion Matrix: Iris Classification (KNN)', fontsize=14)
 plt.ylabel('Actual Species', fontsize=12)
 plt.xlabel('Predicted Species', fontsize=12)
 plt.tight_layout()
-plt.show() # This command makes the first graph pop up
+plt.show() 
 
 # Graph 2: Feature Distribution (Petal Length vs Width)
 # Convert raw data into a DataFrame for easier plotting
@@ -72,4 +72,4 @@ sns.scatterplot(data=df, x='petal length (cm)', y='petal width (cm)',
                 hue='Species', palette='viridis', s=100)
 plt.title('Iris Dataset: Petal Length vs Petal Width', fontsize=14)
 plt.tight_layout()
-plt.show() # This command makes the second graph pop up
+plt.show() 
